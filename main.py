@@ -28,7 +28,7 @@
 # print(chat_completion.choices[0].message.content)
 
 import streamlit as st
-import fitz # PyMuPDF
+import PyMuPDF
 
 st.set_page_config(page_title="PDF Text Extractor", layout="wide")
 
@@ -56,3 +56,4 @@ if uploaded_file:
         mime="text/plain"
 
     )
+
